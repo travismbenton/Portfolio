@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Name: Travis Benton
+Date Created: Aug 7th, 2019
+Most recent revision: Aug 8th, 2019
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Infomation</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Contact Me!</h1>
+        </header>
+
+        <hr>
+        <a href="index.html">Home</a>
+        <hr>
+
+        <h2>Information Request</h2>
+        <form action="submit.html" method="post">
+          <label for="firstName">First Name:</label> <br>
+          <input type="text" name="firstName" id="firstName"> <br><br>
+          <label for="lastName">Last Name:</label> <br>
+          <input type="text" name="lastName" id="lastName"> <br><br>
+          <label for="firstName">Phone Number:</label> <br>
+          <input type="text" name="phoneNumber" id="phoneNumber"> <br><br>
+
+          <label for="callTime">Best time to call:</label> <br>
+          <select name="callTime" id="contact">
+            <option value="default" selected>--Select One--</option>
+            <option value="morning">Morning(8AM to 12PM EST)</option>
+            <option value="afternoon">Afternoon(12PM to 5PM EST)</option>
+            <option value="evening">Evening(5PM to 8PM EST)</option>
+            <option value="anytime">Anytime</option>
+          </select> <br><br>
+
+          <fieldset>
+            <legend>I am interested in (check all that apply):</legend> <br>
+            <input type="checkbox" name="interest" value="frontEnd" id="frontEnd">
+            <label for="frontEnd">Front-End Web Development</label> <br>
+            <input type="checkbox" name="interest" value="backEnd" id="backEnd">
+            <label for="backEnd">Back-End Web Development</label> <br>
+            <input type="checkbox" name="interest" value="database" id="database">
+            <label for="database">Database Design</label> <br>
+          </fieldset>
+
+          <fieldset>
+            <legend>I have filled in the client questionnaire form:</legend> <br>
+            <input type="radio" name="questionnaire" value="yes" id="choice1">
+            <label for="choice1">Yes</label> <br>
+            <input type="radio" name="questionnaire" value="no" id="choice2">
+            <label for="choice2">No</label> <br>
+          </fieldset>
+
+
+          <label for="info">Additional Information:</label> <br>
+          <textarea name="info" id="info"></textarea> <br>
+          <input type="submit" name="submit" value="submit">
+          <input type="reset">
+        </form>
+        <hr>
+
+        <footer></footer>
+
+
+
+    </main>
+</body>
+</html>
