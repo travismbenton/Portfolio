@@ -8,6 +8,8 @@ Most recent revision: Aug 7th, 2019
   <head>
     <meta charset="utf-8">
     <title>Travis Benton's Portfolio</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
   </head>
 
   <body>
@@ -15,21 +17,14 @@ Most recent revision: Aug 7th, 2019
       <header>
           <h1>Portfolio for Travis M. Benton</h1>
       </header>
-        <hr>
-        <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-        <nav>
-            <p><a href="projects.html">Projects</a> <a href="contact.html">Contact Me</a> <a href="testimonials.html">Testimonials</a></p>
-        </nav>
 
-        <nav>
-          <ul style="list-style-type: circle">
+        <nav class="border">
+          <ul style="list-style-type: none">
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact Me</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
           </ul>
         </nav>
-
-        <hr>
 
         <section>
           <article id="about-me">
@@ -41,33 +36,39 @@ Most recent revision: Aug 7th, 2019
         </section>
 
         <section>
-          <article id="past-experiences">
+          <article id="experience">
             <h2><em>Past Experiences</em></h2>
             <a href="index.html"><img src="images/house2.jpg" alt="House on a mountian" style="width: 400px"></a>
-            <table border="2">
+
+            <table>
               <caption>Employment History</caption>
-              <tr>
-                <th>Years of Employment</th>
-                <th>Title</th>
-                <th>Company</th>
-              </tr>
-              <tr>
-                <td>2018-Present</td>
-                <td>Apprentice</td>
-                <td>The Software Guild</td>
-              </tr>
-              <tr>
-                <td>2012-2018</td>
-                <td>Clerk</td>
-                <td>United Shipping Services</td>
-              </tr>
-              <tr>
-                <td>2007-2012</td>
-                <td>Student</td>
-                <td>State University</td>
-              </tr>
+              <thead>
+                  <tr>
+                      <th>Years of Employment</th>
+                      <th>Title</th>
+                      <th>Company</th>
+                    </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>2018-Present</td>
+                      <td>Apprentice</td>
+                      <td>The Software Guild</td>
+                    </tr>
+                    <tr>
+                      <td>2012-2018</td>
+                      <td>Clerk</td>
+                      <td>United Shipping Services</td>
+                    </tr>
+                    <tr>
+                      <td>2007-2012</td>
+                      <td>Student</td>
+                      <td>State University</td>
+                    </tr>
+              </tbody>
             </table>
-            </article>
+
+          </article>
         </section>
 
         <section>
@@ -79,7 +80,7 @@ Most recent revision: Aug 7th, 2019
               <ol>
                 <li>It's fun!</li>
                 <li>It allows you to be creative</li>
-              </ol>            
+              </ol>
               <li>Places I like to go:</li>
               <ul style="list-style-type: circle">
                 <li>The beach</li>
@@ -89,7 +90,7 @@ Most recent revision: Aug 7th, 2019
             </ul>
             </article>
         </section>
-        <hr>
+
 
         <footer>
           <p>&copy; 2020 Travis M. Benton. All rights reserved.</p>
