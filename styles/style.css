@@ -1,33 +1,112 @@
 /*
 Creator: Travis M. Benton
 Date created: Aug 10th, 2019
-Date last modified: 
+Date last modified:
 */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
     background-color: #fef9ff;
     font-family: arial, helvetica, sans-serif;
-    color: #0d1f2d
+    color: #0d1f2d;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 header, footer {
     background-color: #5b7d87;
     color: #fef9ff;
-    height: 100px;
+    height: 150px;
     text-align: center;
-    padding: 30px 10px 20px 10px;
+  }
+
+header {
+  padding-top: 25px;
+}
+
+footer {
+  padding-top: 55px
 }
 
 h1 {
     font-size: 2.5em;
 }
 
+/* 0 Margin Nav Items*/
+.ul-main {
+  margin-left:0;
+	padding:0;
+	border:0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* 0 Margin Nav Items*/
+
+nav a {
+    display: block;
+    margin: 20px;
+    width: 100px;
+    background-color: #5b7d87;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
 nav {
     border-top: 3px dashed #546a7b;
     border-bottom: 3px dashed #546a7b;
     margin-top: 4px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a:visited {
+    color: #e4c3ad;
+}
+
+nav a:hover {
+  background-color: #fef9ff;
+    color: #5b7d87;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 16px;
 
 }
+
+#about-me img {
+  margin-right: 20px;
+}
+
+article img {
+  float: left;
+}
+
+.right-content {
+  float: left;
+}
+
+.clear-float {
+  clear: both;
+}
+
 
 table {
     border: 1px solid #0d1f2d;
